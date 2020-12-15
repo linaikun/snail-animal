@@ -14,7 +14,7 @@
           <Row :gutter="32">
             <Col span="24">
               <FormItem label="公司logo" prop="company_logo" >
-                <Input v-model="form.company_logo" clearable/>
+                <uploadThumb v-model="form.company_logo" multiple></uploadThumb>
               </FormItem>
             </Col>
           </Row>
@@ -73,9 +73,11 @@
 <script>
 // 根据你的实际请求api.js位置路径修改
 import { addBasicsetup, editBasicsetup } from "@/api/index";
+import uploadThumb from "@/views/my-components/snail/upload-pic-thumb";
 export default {
   name: "addEdit",
   components: {
+    uploadThumb,
   },
   props: {
     value: {
@@ -98,7 +100,7 @@ export default {
       maxHeight: 510,
       form: { // 添加或编辑表单对象初始化数据
         company_adress: "",
-        company_logo: "",
+        company_logo: [],
         company_name: "",
         company_tel: "",
         location_x: "",

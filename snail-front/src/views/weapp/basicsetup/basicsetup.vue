@@ -48,7 +48,7 @@
 
 <script>
 // 根据你的实际请求api.js位置路径修改
-import { getBasicsetupList, deleteBasicsetup } from "@/api";
+import { getBasicsetupList, deleteBasicsetup } from "@/api/index";
 // 根据你的实际添加编辑组件位置路径修改
 import addEdit from "./addEdit.vue";
 import { shortcuts } from "@/libs/shortcuts";

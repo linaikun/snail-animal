@@ -78,7 +78,10 @@
             <Col span="24">
               <FormItem label="推荐到达方式" prop="preferred_Methods" >
                 <Select v-model="form.preferred_Methods" clearable transfer>
-                  <Option value="0">请自行编辑下拉菜单</Option>
+                  <Option value="无">无</Option>
+                  <Option value="地铁">地铁</Option>
+                  <Option value="公交">公交</Option>
+                  <Option value="自驾">自驾</Option>
                 </Select>
               </FormItem>
             </Col>

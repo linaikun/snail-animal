@@ -22,29 +22,17 @@
     </Card>
     <Modal :title="modalTitle" v-model="modalVisible" :mask-closable='false' :width="500">
       <Form ref="form" :model="form" :rules="formValidate" :label-width="100" label-position="left">
-        <FormItem label="服务条款" prop="ToS" class="form-quill">
-          <quill id="quill-0-0" v-model="form.ToS"></quill>
+        <FormItem label="服务条款" prop="ToS" >
+          <Input v-model="form.ToS" type="textarea" :rows="4" maxlength="250" show-word-limit/>
         </FormItem>
-        <FormItem label="公司介绍" prop="company_des" class="form-quill">
-          <quill id="quill-1-0" v-model="form.company_des"></quill>
+        <FormItem label="公司介绍" prop="company_des" >
+          <Input v-model="form.company_des" type="textarea" :rows="4" maxlength="250" show-word-limit/>
         </FormItem>
-        <FormItem label="XX规则" prop="xx_rule" class="form-quill">
-          <quill id="quill-2-0" v-model="form.xx_rule"></quill>
+        <FormItem label="XX规则" prop="xx_rule" >
+          <Input v-model="form.xx_rule" type="textarea" :rows="4" maxlength="250" show-word-limit/>
         </FormItem>
-        <FormItem label="会员权益" prop="Memb_interests" class="form-quill">
-          <quill id="quill-3-0" v-model="form.Memb_interests"></quill>
-        </FormItem>
-        <FormItem label="备用字段1" prop="String1" >
-          <Input v-model="form.String1" clearable/>
-        </FormItem>
-        <FormItem label="备用字段2" prop="String2" >
-          <Input v-model="form.String2" clearable/>
-        </FormItem>
-        <FormItem label="备用字段3" prop="String3" >
-          <Input v-model="form.String3" clearable/>
-        </FormItem>
-        <FormItem label="备用字段3" prop="String4" >
-          <Input v-model="form.String4" clearable/>
+        <FormItem label="会员权益" prop="Memb_interests" >
+          <Input v-model="form.Memb_interests" type="textarea" :rows="4" maxlength="250" show-word-limit/>
         </FormItem>
       </Form>
       <div slot="footer">
@@ -58,12 +46,10 @@
 <script>
 // 根据你的实际请求api.js位置路径修改
 import { getClausedescriptionList, addClausedescription, editClausedescription, deleteClausedescription } from "@/api/index";
-import quill from "@/views/my-components/snail/quill";
 import { shortcuts } from "@/libs/shortcuts";
 export default {
   name: "clausedescription",
   components: {
-    quill,
   },
   data() {
     return {
@@ -83,10 +69,6 @@ export default {
         company_des: "",
         xx_rule: "",
         Memb_interests: "",
-        String1: "",
-        String2: "",
-        String3: "",
-        String4: "",
       },
       // 表单验证规则
       formValidate: {
