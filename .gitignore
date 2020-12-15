@@ -1,0 +1,5 @@
+/src/
+/snail/target/
+/snail-logs/
+/snail-front/node_modules
+/idea/

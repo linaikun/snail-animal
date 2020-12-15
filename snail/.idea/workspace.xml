@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a29d3b2-7a13-4518-af46-defbd44b9747" name="Default Changelist" comment="业务页面">
+      <change beforePath="$PROJECT_DIR$/snail-logs/spring.log.2020-12-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail-logs/spring.log.2020-12-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail-logs/spring.log.2020-12-13.0.gz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kzSOTUoMS4jmnujBvXjCiyZlW1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SnailApplication">
+    <configuration name="SnailGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.animal.snail.generator.SnailGenerator" />
+      <module name="snail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.animal.snail.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnailMPGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.animal.snail.generator.SnailMPGenerator" />
+      <module name="snail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.animal.snail.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="snail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.animal.snail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.animal.snail.SnailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SnailApplication" />
+        <item itemvalue="Application.SnailGenerator" />
+        <item itemvalue="Application.SnailMPGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a29d3b2-7a13-4518-af46-defbd44b9747" name="Default Changelist" comment="" />
+      <created>1606701895299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606701895299</updated>
+      <workItem from="1606701897080" duration="299000" />
+      <workItem from="1606702202076" duration="1429000" />
+      <workItem from="1606703775599" duration="289000" />
+      <workItem from="1606704109408" duration="2551000" />
+      <workItem from="1606786497282" duration="1299000" />
+      <workItem from="1606869317128" duration="11453000" />
+      <workItem from="1606994956116" duration="844000" />
+      <workItem from="1607331659615" duration="7104000" />
+      <workItem from="1607564965781" duration="9483000" />
+      <workItem from="1607586851288" duration="632000" />
+      <workItem from="1607587508077" duration="9997000" />
+      <workItem from="1607649494149" duration="7792000" />
+      <workItem from="1607737975235" duration="12333000" />
+      <workItem from="1607826715816" duration="10679000" />
+      <workItem from="1607907362860" duration="5718000" />
+    </task>
+    <task id="LOCAL-00001" summary="demo">
+      <created>1607598445195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607598445195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="demo">
+      <created>1607599636342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607599636342</updated>
+    </task>
+    <task id="LOCAL-00003" summary="demo">
+      <created>1607743856339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607743856339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="demo">
+      <created>1607744305849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607744305849</updated>
+    </task>
+    <task id="LOCAL-00005" summary="业务页面">
+      <created>1607908976692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908976692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="业务页面">
+      <created>1607914158162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607914158163</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="demo" />
+    <MESSAGE value="业务页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="业务页面" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606702342932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606702342932" />
+    <state x="736" y="394" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607740430426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="394" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1607740430426" />
+    <state x="100" y="107" width="1720" height="840" key="DiffContextDialog" timestamp="1607740818048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="107" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607740818048" />
+    <state x="771" y="428" key="Github.CreateGistDialog" timestamp="1607861259372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="428" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607861259372" />
+    <state x="832" y="417" key="Github.ShareDialog" timestamp="1607917114590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607917114590" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.1.bottom" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.1.center" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.1.left" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.1.right" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.2.bottom" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.2.center" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.2.left" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state width="1877" height="275" key="GridCell.Tab.2.right" timestamp="1607922054962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607922054962" />
+    <state x="461" y="171" key="SettingsEditor" timestamp="1607587742764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607587742764" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1607744022706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607744022706" />
+    <state x="100" y="107" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607740818048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="107" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607740818048" />
+    <state x="789" y="261" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607589755836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="261" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607589755836" />
+    <state x="1128" y="209" width="648" height="737" key="find.popup" timestamp="1607863367609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1128" y="209" width="648" height="737" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607863367609" />
+    <state x="616" y="246" key="run.anything.popup" timestamp="1607740546221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="246" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607740546221" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
