@@ -19,6 +19,24 @@ export const getDictData = "/snail/dictData/getByType/"
 // Websocket
 export const ws = "/snail/ws"
 
+
+// 分页获取课程体系管理数据
+export const getCurriculumList = (params) => {
+    return getRequest('/wxapp/curriculum/getByCondition', params)
+}
+// 添加课程体系管理
+export const addCurriculum = (params) => {
+    return postRequest('/wxapp/curriculum/save', params)
+}
+// 编辑课程体系管理
+export const editCurriculum = (params) => {
+    return putRequest('/wxapp/curriculum/update', params)
+}
+// 删除课程体系管理
+export const deleteCurriculum = (params) => {
+    return postRequest('/wxapp/curriculum/delByIds', params)
+}
+
 // 分页获取教练/老师数据
 export const getCoachList = (params) => {
     return getRequest('/wxapp/coach/getByCondition', params)

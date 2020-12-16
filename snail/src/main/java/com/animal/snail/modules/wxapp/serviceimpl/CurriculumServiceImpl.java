@@ -1,8 +1,8 @@
 package com.animal.snail.modules.wxapp.serviceimpl;
 
-import com.animal.snail.modules.wxapp.dao.CoachDao;
-import com.animal.snail.modules.wxapp.entity.Coach;
-import com.animal.snail.modules.wxapp.service.CoachService;
+import com.animal.snail.modules.wxapp.dao.CurriculumDao;
+import com.animal.snail.modules.wxapp.entity.Curriculum;
+import com.animal.snail.modules.wxapp.service.CurriculumService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,40 +21,39 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * 教练/老师管理接口实现
+ * 课程体系接口实现
  * @author Snail
  */
 @Slf4j
 @Service
 @Transactional
-public class CoachServiceImpl implements CoachService {
+public class CurriculumServiceImpl implements CurriculumService {
 
     @Autowired
-    private CoachDao coachDao;
+    private CurriculumDao curriculumDao;
 
     @Override
-    public CoachDao getRepository() {
-        return coachDao;
+    public CurriculumDao getRepository() {
+        return curriculumDao;
     }
 
     @Override
-    public Page<Coach> findByCondition(Coach coach, SearchVo searchVo, Pageable pageable) {
+    public Page<Curriculum> findByCondition(Curriculum curriculum, SearchVo searchVo, Pageable pageable) {
 
-        return coachDao.findAll(new Specification<Coach>() {
+        return curriculumDao.findAll(new Specification<Curriculum>() {
             @Nullable
             @Override
-            public Predicate toPredicate(Root<Coach> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+            public Predicate toPredicate(Root<Curriculum> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
 
                 // TODO 可添加你的其他搜索过滤条件 默认已有创建时间过滤
                 Path<Date> createTimeField = root.get("createTime");
-
-                Path<String> name = root.get("name");
+                Path<String> cur_name = root.get("cur_name");
 
                 List<Predicate> list = new ArrayList<>();
 
                 // 模糊搜素
-                if (StrUtil.isNotBlank(coach.getName())) {
-                    list.add(cb.like(name, '%' + coach.getName() + '%'));
+                if (StrUtil.isNotBlank(curriculum.getCur_name())) {
+                    list.add(cb.like(cur_name, '%' + curriculum.getCur_name() + '%'));
                 }
 
                 // 创建时间

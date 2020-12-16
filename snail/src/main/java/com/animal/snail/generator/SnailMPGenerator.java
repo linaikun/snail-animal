@@ -32,13 +32,13 @@ public class SnailMPGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "Coach";
+    private static final String CLASS_NAME = "Curriculum";
 
     /**
      * 类说明描述
      * 建议仅需修改
      */
-    private static final String DESCRIPTION = "公司基本说明";
+    private static final String DESCRIPTION = "课程体系";
 
     /**
      * 作者名

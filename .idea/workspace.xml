@@ -14,14 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d474d8-9f5f-4217-9dd4-3fc7c2911f93" name="Default Changelist" comment="by animal">
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/coach/addEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/coach/coach.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/curriculum/addEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/curriculum/curriculum.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CurriculumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/dao/CurriculumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/Curriculum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/service/CurriculumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CurriculumServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail-front/src/views/weapp/clausedescription/clausedescription.vue" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/clausedescription/clausedescription.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CoachController.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CoachController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailMPGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailMPGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CoachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CoachServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/SalesRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/SalesRoomServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +39,13 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -81,6 +96,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -89,6 +105,13 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\serviceimpl" />
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\service" />
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\entity" />
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\dao" />
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\serviceimpl" />
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\service" />
@@ -124,6 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SnailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="snail" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.animal.snail.SnailApplication" />
@@ -154,7 +188,7 @@
       <workItem from="1607945897844" duration="2176000" />
       <workItem from="1607948382459" duration="8491000" />
       <workItem from="1608027064634" duration="3263000" />
-      <workItem from="1608082274336" duration="7075000" />
+      <workItem from="1608082274336" duration="17144000" />
     </task>
     <task id="LOCAL-00001" summary=" 。">
       <created>1607927019551</created>
@@ -226,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608029036474</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="by animal">
+      <created>1608108555024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108555025</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1607935448450" />
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1608115723432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608115723432" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1607947696834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,54 +346,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="832" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608027150183" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1608027510993">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1608116573645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608027510993" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1608027510993">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608116573645" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1608116573645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608027510993" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1608027510993">
+    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608116573645" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1608116573645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608027510993" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1608027510993">
+    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608116573645" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1608116573645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608027510993" />
-    <state width="1877" height="273" key="GridCell.Tab.1.bottom" timestamp="1608027003373">
+    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608116573645" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003373" />
-    <state width="1877" height="273" key="GridCell.Tab.1.center" timestamp="1608027003373">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003373" />
-    <state width="1877" height="273" key="GridCell.Tab.1.left" timestamp="1608027003373">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003373" />
-    <state width="1877" height="273" key="GridCell.Tab.1.right" timestamp="1608027003373">
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003373" />
-    <state width="1877" height="292" key="GridCell.Tab.2.bottom" timestamp="1608027003363">
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.2.bottom" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003363" />
-    <state width="1877" height="292" key="GridCell.Tab.2.center" timestamp="1608027003363">
+    <state width="1877" height="306" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.2.center" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003363" />
-    <state width="1877" height="292" key="GridCell.Tab.2.left" timestamp="1608027003363">
+    <state width="1877" height="306" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.2.left" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003363" />
-    <state width="1877" height="292" key="GridCell.Tab.2.right" timestamp="1608027003363">
+    <state width="1877" height="306" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
+    <state width="1877" height="306" key="GridCell.Tab.2.right" timestamp="1608116568185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608027003363" />
+    <state width="1877" height="306" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608116568185" />
     <state x="830" y="240" key="RollbackChangesDialog" timestamp="1607928775802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -357,21 +402,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608026326808" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608029041649">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608108918441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608029041649" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608108918441" />
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607929357789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607929357789" />
-    <state x="662" y="223" width="615" height="594" key="find.popup" timestamp="1608103666274">
+    <state x="662" y="223" width="615" height="594" key="find.popup" timestamp="1608114335984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="615" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608103666274" />
+    <state x="662" y="223" width="615" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608114335984" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607934977811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607934977811" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CoachController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

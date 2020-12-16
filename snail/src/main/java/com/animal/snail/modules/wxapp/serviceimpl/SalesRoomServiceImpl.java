@@ -47,8 +47,14 @@ public class SalesRoomServiceImpl implements SalesRoomService {
 
                 // TODO 可添加你的其他搜索过滤条件 默认已有创建时间过滤
                 Path<Date> createTimeField = root.get("createTime");
+                Path<String> room_name = root.get("room_name");
 
                 List<Predicate> list = new ArrayList<>();
+
+                // 模糊搜素
+                if (StrUtil.isNotBlank(salesRoom.getRoom_name())) {
+                    list.add(cb.like(room_name, '%' + salesRoom.getRoom_name() + '%'));
+                }
 
                 // 创建时间
                 if(StrUtil.isNotBlank(searchVo.getStartDate())&&StrUtil.isNotBlank(searchVo.getEndDate())){
