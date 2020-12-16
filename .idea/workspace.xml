@@ -14,11 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d474d8-9f5f-4217-9dd4-3fc7c2911f93" name="Default Changelist" comment="by animal">
+      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/coach/addEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/coach/coach.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail-front/src/views/weapp/basicsetup/addEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/basicsetup/addEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail-front/src/views/weapp/basicsetup/basicsetup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/basicsetup/basicsetup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail-front/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/src/views/weapp/clausedescription/clausedescription.vue" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/clausedescription/clausedescription.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CoachController.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CoachController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,7 +153,8 @@
       <workItem from="1607929567347" duration="11104000" />
       <workItem from="1607945897844" duration="2176000" />
       <workItem from="1607948382459" duration="8491000" />
-      <workItem from="1608027064634" duration="1844000" />
+      <workItem from="1608027064634" duration="3263000" />
+      <workItem from="1608082274336" duration="7075000" />
     </task>
     <task id="LOCAL-00001" summary=" 。">
       <created>1607927019551</created>
@@ -215,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608027114119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="by animal">
+      <created>1608029036474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608029036474</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607947696834" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1608026780697">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1608097879936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608026780697" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608097879936" />
     <state x="832" y="418" key="Github.ShareDialog" timestamp="1608027150183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,18 +357,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608026326808" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608026955299">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608029041649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608026955299" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608029041649" />
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607929357789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607929357789" />
-    <state x="662" y="223" width="615" height="594" key="find.popup" timestamp="1607952245900">
+    <state x="662" y="223" width="615" height="594" key="find.popup" timestamp="1608103666274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="615" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607952245900" />
+    <state x="662" y="223" width="615" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608103666274" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607934977811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

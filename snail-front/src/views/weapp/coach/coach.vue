@@ -1,80 +1,88 @@
 <template>
   <div class="search">
     <Card>
+      <Row v-show="openSearch" @keydown.enter.native="handleSearch">          <Form ref="searchForm" :model="searchForm" inline :label-width="70">
+        <FormItem label="昵称" prop="name">
+          <Input type="text" v-model="searchForm.name" placeholder="请输入昵称" clearable style="width: 200px"/>
+        </FormItem>
+        <FormItem style="margin-left:-35px;" class="br">
+          <Button @click="handleSearch" type="primary" icon="ios-search">搜索</Button>
+          <Button @click="handleReset">重置</Button>
+        </FormItem>
+      </Form>
+      </Row>
       <Row class="operation">
         <Button @click="add" type="primary" icon="md-add">添加</Button>
         <Button @click="delAll" icon="md-trash">批量删除</Button>
         <Button @click="getDataList" icon="md-refresh">刷新</Button>
+        <Button type="dashed" @click="openSearch=!openSearch">{{openSearch ? "关闭搜索" : "开启搜索"}}</Button>
         <Button type="dashed" @click="openTip=!openTip">{{openTip ? "关闭提示" : "开启提示"}}</Button>
       </Row>
       <Row v-show="openTip">
         <Alert show-icon>
-          已选择 <span class="select-count">{{selectList.length}}</span> 项
+          已选择
+          <span class="select-count">{{selectList.length}}</span> 项
           <a class="select-clear" @click="clearSelectAll">清空</a>
         </Alert>
       </Row>
       <Row>
-        <Table :loading="loading" border :columns="columns" :data="data" ref="table" sortable="custom" @on-sort-change="changeSort" @on-selection-change="changeSelect"></Table>
+        <Table
+            :loading="loading"
+            border
+            :columns="columns"
+            :data="data"
+            ref="table"
+            sortable="custom"
+            @on-sort-change="changeSort"
+            @on-selection-change="changeSelect"
+        ></Table>
       </Row>
       <Row type="flex" justify="end" class="page">
-        <Page :current="searchForm.pageNumber" :total="total" :page-size="searchForm.pageSize" @on-change="changePage" @on-page-size-change="changePageSize" :page-size-opts="[10,20,50]" size="small" show-total show-elevator show-sizer></Page>
+        <Page
+            :current="searchForm.pageNumber"
+            :total="total"
+            :page-size="searchForm.pageSize"
+            @on-change="changePage"
+            @on-page-size-change="changePageSize"
+            :page-size-opts="[10,20,50]"
+            size="small"
+            show-total
+            show-elevator
+            show-sizer
+        ></Page>
       </Row>
+
+      <addEdit :data="form" :type="showType" v-model="showDrawer" @on-submit="getDataList" />
     </Card>
-    <Modal :title="modalTitle" v-model="modalVisible" :mask-closable='false' :width="500">
-      <Form ref="form" :model="form" :rules="formValidate" :label-width="100" label-position="left">
-        <FormItem label="服务条款" prop="to_s" >
-          <Input v-model="form.to_s" type="textarea" :rows="4" maxlength="250" show-word-limit/>
-        </FormItem>
-        <FormItem label="公司介绍" prop="company_des" >
-          <Input v-model="form.company_des" type="textarea" :rows="4" maxlength="250" show-word-limit/>
-        </FormItem>
-        <FormItem label="XX规则" prop="xx_rule" >
-          <Input v-model="form.xx_rule" type="textarea" :rows="4" maxlength="250" show-word-limit/>
-        </FormItem>
-        <FormItem label="会员权益" prop="memb_interests" >
-          <Input v-model="form.memb_interests" type="textarea" :rows="4" maxlength="250" show-word-limit/>
-        </FormItem>
-      </Form>
-      <div slot="footer">
-        <Button type="text" @click="modalVisible=false">取消</Button>
-        <Button type="primary" :loading="submitLoading" @click="handleSubmit">提交</Button>
-      </div>
-    </Modal>
   </div>
 </template>
 
 <script>
 // 根据你的实际请求api.js位置路径修改
-import { getClausedescriptionList, addClausedescription, editClausedescription, deleteClausedescription } from "@/api/index";
+import { getCoachList, deleteCoach } from "@/api/index";
+// 根据你的实际添加编辑组件位置路径修改
+import addEdit from "./addEdit.vue";
 import { shortcuts } from "@/libs/shortcuts";
 export default {
-  name: "clausedescription",
+  name: "coach",
   components: {
+    addEdit,
   },
   data() {
     return {
+      openSearch: true, // 显示搜索
       openTip: true, // 显示提示
+      showType: "0", // 添加或编辑标识
+      showDrawer: false, // 显示添加编辑抽屉
       loading: true, // 表单加载状态
-      modalType: 0, // 添加或编辑标识
-      modalVisible: false, // 添加或编辑显示
-      modalTitle: "", // 添加或编辑标题
       searchForm: { // 搜索框初始化对象
         pageNumber: 1, // 当前页数
         pageSize: 10, // 页面大小
         sort: "createTime", // 默认排序字段
         order: "desc", // 默认排序方式
       },
-      form: { // 添加或编辑表单对象初始化数据
-        to_s: "",
-        company_des: "",
-        xx_rule: "",
-        memb_interests: "",
-      },
-      // 表单验证规则
-      formValidate: {
-      },
-      submitLoading: false, // 添加或编辑提交状态
       selectList: [], // 多选数据
+      form: {},
       columns: [
         // 表头
         {
@@ -88,26 +96,74 @@ export default {
           align: "center"
         },
         {
-          title: "服务条款",
-          key: "to_s",
+          title: "昵称",
+          key: "name",
           minWidth: 120,
           sortable: false,
         },
         {
-          title: "公司介绍",
-          key: "company_des",
+          title: "简短描述",
+          key: "brief_des",
           minWidth: 120,
           sortable: false,
         },
         {
-          title: "XX规则",
-          key: "xx_rule",
+          title: "专业资质",
+          key: "professional_qua",
           minWidth: 120,
           sortable: false,
         },
         {
-          title: "会员权益",
-          key: "memb_interests",
+          title: "说说",
+          key: "message",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "头像",
+          key: "face_pic",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教",
+          key: "personal_train",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教微信",
+          key: "personal_wx",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教电话",
+          key: "personal_tel",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教价格",
+          key: "personal_price",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教起售节数",
+          key: "personal_num",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "私教擅长项目",
+          key: "personal_at",
+          minWidth: 120,
+          sortable: false,
+        },
+        {
+          title: "详细介绍",
+          key: "detailed_intro",
           minWidth: 120,
           sortable: false,
         },
@@ -150,6 +206,8 @@ export default {
         }
       ],
       data: [], // 表单数据
+      pageNumber: 1, // 当前页数
+      pageSize: 10, // 页面大小
       total: 0 // 表单数据总数
     };
   },
@@ -164,6 +222,11 @@ export default {
     },
     changePageSize(v) {
       this.searchForm.pageSize = v;
+      this.getDataList();
+    },
+    handleSearch() {
+      this.searchForm.pageNumber = 1;
+      this.searchForm.pageSize = 10;
       this.getDataList();
     },
     handleReset() {
@@ -189,7 +252,7 @@ export default {
     },
     getDataList() {
       this.loading = true;
-      getClausedescriptionList(this.searchForm).then(res => {
+      getCoachList(this.searchForm).then(res => {
         this.loading = false;
         if (res.success) {
           this.data = res.result.content;
@@ -201,66 +264,32 @@ export default {
         }
       });
     },
-    handleSubmit() {
-      this.$refs.form.validate(valid => {
-        if (valid) {
-          this.submitLoading = true;
-          if (this.modalType === 0) {
-            // 添加 避免编辑后传入id等数据 记得删除
-            delete this.form.id;
-            addClausedescription(this.form).then(res => {
-              this.submitLoading = false;
-              if (res.success) {
-                this.$Message.success("操作成功");
-                this.getDataList();
-                this.modalVisible = false;
-              }
-            });
-          } else {
-            // 编辑
-            editClausedescription(this.form).then(res => {
-              this.submitLoading = false;
-              if (res.success) {
-                this.$Message.success("操作成功");
-                this.getDataList();
-                this.modalVisible = false;
-              }
-            });
-          }
-        }
-      });
-    },
     add() {
-      this.modalType = 0;
-      this.modalTitle = "添加";
-      this.$refs.form.resetFields();
-      delete this.form.id;
-      this.modalVisible = true;
+      this.showType = "2";
+      this.showDrawer = true;
     },
     edit(v) {
-      this.modalType = 1;
-      this.modalTitle = "编辑";
-      this.$refs.form.resetFields();
       // 转换null为""
       for (let attr in v) {
-        if (v[attr] === null) {
+        if (v[attr] == null) {
           v[attr] = "";
         }
       }
       let str = JSON.stringify(v);
       let data = JSON.parse(str);
       this.form = data;
-      this.modalVisible = true;
+      this.showType = "1";
+      this.showDrawer = true;
     },
     remove(v) {
       this.$Modal.confirm({
         title: "确认删除",
         // 记得确认修改此处
-        content: "您确认要删除 " + v.id + " ?",
+        content: "您确认要删除 " + v.name + " ?",
         loading: true,
         onOk: () => {
           // 删除
-          deleteClausedescription({ids: v.id}).then(res => {
+          deleteCoach({ids: v.id}).then(res => {
             this.$Modal.remove();
             if (res.success) {
               this.$Message.success("操作成功");
@@ -287,7 +316,7 @@ export default {
           });
           ids = ids.substring(0, ids.length - 1);
           // 批量删除
-          deleteClausedescription({ids: ids}).then(res => {
+          deleteCoach({ids: ids}).then(res => {
             this.$Modal.remove();
             if (res.success) {
               this.$Message.success("操作成功");

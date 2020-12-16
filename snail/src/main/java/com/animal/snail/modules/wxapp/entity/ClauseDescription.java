@@ -25,7 +25,7 @@ public class ClauseDescription extends SnailBaseEntity {
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "服务条款")
-    private String ToS;
+    private String to_s;
 
     @ApiModelProperty(value = "公司介绍")
     private String company_des;
@@ -34,7 +34,7 @@ public class ClauseDescription extends SnailBaseEntity {
     private String xx_rule;
 
     @ApiModelProperty(value = "会员权益")
-    private String  Memb_interests;
+    private String  memb_interests;
 
     @ApiModelProperty(value = "备用字段1")
     private String  String1;

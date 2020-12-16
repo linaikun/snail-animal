@@ -19,6 +19,23 @@ export const getDictData = "/snail/dictData/getByType/"
 // Websocket
 export const ws = "/snail/ws"
 
+// 分页获取教练/老师数据
+export const getCoachList = (params) => {
+    return getRequest('/wxapp/coach/getByCondition', params)
+}
+// 添加教练/老师
+export const addCoach = (params) => {
+    return postRequest('/wxapp/coach/save', params)
+}
+// 编辑教练/老师
+export const editCoach = (params) => {
+    return putRequest('/wxapp/coach/update', params)
+}
+// 删除教练/老师
+export const deleteCoach = (params) => {
+    return postRequest('/wxapp/coach/delByIds', params)
+}
+
 // 分页获取门店管理数据
 export const getSalesroomList = (params) => {
     return getRequest('/wxapp/salesroom/getByCondition', params)

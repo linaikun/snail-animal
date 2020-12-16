@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4bc8c246-8af5-44b1-8c80-8326f0344319" name="Default Changelist" comment="change">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClauseDescription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,10 @@
       <workItem from="1607927391744" duration="1502000" />
       <workItem from="1607930468493" duration="3549000" />
       <workItem from="1607951980582" duration="5197000" />
-      <workItem from="1608027314963" duration="1687000" />
+      <workItem from="1608027314963" duration="2902000" />
+      <workItem from="1608082226439" duration="2418000" />
+      <workItem from="1608106492366" duration="315000" />
+      <workItem from="1608106822662" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1607915814795</created>

@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Slf4j
 @RestController
 @Api(description = "教练/老师管理管理接口")
-@RequestMapping("/snail/coach")
+@RequestMapping("/snail/wxapp/coach")
 @Transactional
 public class CoachController extends SnailBaseController<Coach, String> {
 
