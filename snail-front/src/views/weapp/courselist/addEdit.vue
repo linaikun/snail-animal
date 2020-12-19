@@ -109,7 +109,7 @@
                 <Select v-model="form.curriculum" clearable transfer>
                   <Option
                       v-for="item in courseList"
-                      :value="item.id"
+                      :value="item.cur_name"
                       :key="item.id"
                   >
                     <span style="margin-right: 10px">{{ item.cur_name }}</span>

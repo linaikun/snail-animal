@@ -14,19 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d474d8-9f5f-4217-9dd4-3fc7c2911f93" name="Default Changelist" comment="by animal">
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/courselist/addEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/courselist/courselist.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/CourseListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/dao/CourseListDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/CourseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/service/CourseListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CourseListServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail-front/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/config/interceptor/LimitRaterInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/config/interceptor/LimitRaterInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail-front/src/views/weapp/courselist/addEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/courselist/addEdit.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +167,7 @@
       <workItem from="1608082274336" duration="23078000" />
       <workItem from="1608165598969" duration="4319000" />
       <workItem from="1608278415906" duration="597000" />
-      <workItem from="1608349835919" duration="6284000" />
+      <workItem from="1608349835919" duration="7913000" />
     </task>
     <task id="LOCAL-00001" summary=" 。">
       <created>1607927019551</created>
@@ -263,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608120522918</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="by animal">
+      <created>1608382151571</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608382151571</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,10 +395,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608026326808" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608120530307">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608382156854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608120530307" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608382156854" />
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607929357789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
