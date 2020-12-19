@@ -33,7 +33,7 @@ public class SnailGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "Curriculum";
+    private static final String CLASS_NAME = "CourseList";
 
     /**
      * 类说明描述

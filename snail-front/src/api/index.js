@@ -20,6 +20,24 @@ export const getDictData = "/snail/dictData/getByType/"
 export const ws = "/snail/ws"
 
 
+// 分页获取课程列表数据
+export const getCourseListList = (params) => {
+    return getRequest('/wxapp/courseList/getByCondition', params)
+}
+// 添加课程列表
+export const addCourseList = (params) => {
+    return postRequest('/wxapp/courseList/save', params)
+}
+// 编辑课程列表
+export const editCourseList = (params) => {
+    return putRequest('/wxapp/courseList/update', params)
+}
+// 删除课程列表
+export const deleteCourseList = (params) => {
+    return postRequest('/wxapp/courseList/delByIds', params)
+}
+
+
 // 分页获取课程体系管理数据
 export const getCurriculumList = (params) => {
     return getRequest('/wxapp/curriculum/getByCondition', params)
@@ -36,6 +54,11 @@ export const editCurriculum = (params) => {
 export const deleteCurriculum = (params) => {
     return postRequest('/wxapp/curriculum/delByIds', params)
 }
+//获取全部课程列表
+export const getAllCurriculum = (params) => {
+    return getRequest('/wxapp/curriculum/getAll', params)
+}
+
 
 // 分页获取教练/老师数据
 export const getCoachList = (params) => {

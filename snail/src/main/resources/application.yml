@@ -126,7 +126,7 @@ snail:
     # 每1秒内
     timeout: 1000
     # 总限制200个请求
-    limit: 200
+    limit: 2000
   # IP限流
   iplimit:
     # 开启
@@ -134,7 +134,7 @@ snail:
     # 每1秒内
     timeout: 1000
     # 每个ip限制20个请求
-    limit: 20
+    limit: 2000
   # 后台token交互方式
   token:
     # 默认为true，token将存入redis，并具有单设备登录、自动刷新token过期时间功能 设为false使用JWT交互

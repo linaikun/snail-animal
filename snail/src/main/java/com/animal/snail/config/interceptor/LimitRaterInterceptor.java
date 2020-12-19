@@ -68,7 +68,7 @@ public class LimitRaterInterceptor extends HandlerInterceptorAdapter {
 
         String ip = ipInfoUtil.getIpAddr(request);
 
-        if (ipLimitProperties.getEnable()) {
+        /*if (ipLimitProperties.getEnable()) {
             Boolean token1 = redisRaterLimiter.acquireByRedis(ip,
                     ipLimitProperties.getLimit(), ipLimitProperties.getTimeout());
             if (!token1) {
@@ -119,7 +119,7 @@ public class LimitRaterInterceptor extends HandlerInterceptorAdapter {
             throw new LimitException(e.getMsg());
         } catch (Exception e) {
 
-        }
+        }*/
 
         return true;
     }

@@ -11,16 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc8c246-8af5-44b1-8c80-8326f0344319" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/CurriculumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/dao/CurriculumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/Curriculum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/service/CurriculumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CurriculumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/CourseListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/dao/CourseListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/CourseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/service/CourseListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/CourseListServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailMPGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailMPGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,11 @@
       <workItem from="1608082226439" duration="2418000" />
       <workItem from="1608106492366" duration="315000" />
       <workItem from="1608106822662" duration="2606000" />
-      <workItem from="1608112415456" duration="1664000" />
+      <workItem from="1608112415456" duration="2347000" />
+      <workItem from="1608129038154" duration="1658000" />
+      <workItem from="1608165559953" duration="8387000" />
+      <workItem from="1608278383576" duration="679000" />
+      <workItem from="1608349813514" duration="6995000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1607915814795</created>
@@ -170,9 +172,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-6" y="214" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607866070670" />
-    <state x="662" y="130" width="596" height="804" key="find.popup" timestamp="1607935797643">
+    <state x="662" y="130" width="596" height="804" key="find.popup" timestamp="1608379510072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="130" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607935797643" />
+    <state x="662" y="130" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608379510072" />
   </component>
 </project>
