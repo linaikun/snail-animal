@@ -19,6 +19,22 @@ export const getDictData = "/snail/dictData/getByType/"
 // Websocket
 export const ws = "/snail/ws"
 
+// 分页获取课程表数据
+export const getClasscardList = (params) => {
+    return getRequest('/wxapp/classcard/getByCondition', params)
+}
+// 添加课程表
+export const addClasscard = (params) => {
+    return postRequest('/wxapp/classcard/save', params)
+}
+// 编辑课程表
+export const editClasscard = (params) => {
+    return putRequest('/wxapp/classcard/update', params)
+}
+// 删除课程表
+export const deleteClasscard = (params) => {
+    return postRequest('/wxapp/classcard/delByIds', params)
+}
 
 // 分页获取课程列表数据
 export const getCourseListList = (params) => {
@@ -35,6 +51,10 @@ export const editCourseList = (params) => {
 // 删除课程列表
 export const deleteCourseList = (params) => {
     return postRequest('/wxapp/courseList/delByIds', params)
+}
+// 获取全部课程列表
+export const getAllCourseList = (params) => {
+    return getRequest('/wxapp/courseList/getAll', params)
 }
 
 
@@ -75,6 +95,10 @@ export const editCoach = (params) => {
 // 删除教练/老师
 export const deleteCoach = (params) => {
     return postRequest('/wxapp/coach/delByIds', params)
+}
+// 获取全部教练/老师列表
+export const getAllCoach = (params) => {
+    return getRequest('/wxapp/coach/getAll', params)
 }
 
 // 分页获取门店管理数据

@@ -33,13 +33,13 @@ public class SnailGenerator {
      * 实体类名
      * 建议仅需修改
      */
-    private static final String CLASS_NAME = "CourseList";
+    private static final String CLASS_NAME = "ClassCard";
 
     /**
      * 类说明描述
      * 建议仅需修改
      */
-    private static final String DESCRIPTION = "课程体系";
+    private static final String DESCRIPTION = "课程表";
 
     /**
      * 作者名
