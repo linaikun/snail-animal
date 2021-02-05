@@ -23,4 +23,12 @@ public interface ClassCardService extends SnailBaseService<ClassCard, String> {
     */
     Page<ClassCard> findByCondition(ClassCard classCard, SearchVo searchVo, Pageable pageable);
 
+    /**
+     * 获取最近一周
+     * @return
+     */
+     List<ClassCard> getOneWeek();
+
+
+
 }

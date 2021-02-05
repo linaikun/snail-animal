@@ -15,6 +15,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.lang.Nullable;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 import javax.persistence.criteria.*;
 import java.util.ArrayList;
@@ -63,5 +65,12 @@ public class ClassCardServiceImpl implements ClassCardService {
             }
         }, pageable);
     }
+
+    public List<ClassCard> getOneWeek() {
+        java.sql.Date s = new java.sql.Date(new Date().getTime());
+        return classCardDao.getOneWeek(s);
+    }
+
+
 
 }

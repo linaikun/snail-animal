@@ -16,6 +16,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @author Snail
  */
@@ -42,5 +44,6 @@ public class BasicSetupController extends SnailBaseController<BasicSetup, String
         Page<BasicSetup> page = basicSetupService.findByCondition(basicSetup, searchVo, PageUtil.initPage(pageVo));
         return new ResultUtil<Page<BasicSetup>>().setData(page);
     }
+
 
 }

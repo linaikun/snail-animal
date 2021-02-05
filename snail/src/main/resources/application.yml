@@ -21,7 +21,7 @@ spring:
     timeout-per-shutdown-phase: 10S
   # 数据源
   datasource:
-    url: jdbc:mysql://119.3.236.20:3306/snail?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://119.3.236.20:3306/snail_test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     # Jasypt加密 可到common-utils中找到JasyptUtil加解密工具类生成加密结果 格式为ENC(加密结果) 以下解密结果为123456
     password: Cuixiaojing521@
@@ -64,7 +64,7 @@ spring:
   redis:
     host: 119.3.236.20
     # 数据库索引 默认0
-    database: 0
+    database: 4
     port: 6379
     # 超时时间 Duration类型 3秒
     timeout: 5S
@@ -140,7 +140,7 @@ snail:
     # 默认为true，token将存入redis，并具有单设备登录、自动刷新token过期时间功能 设为false使用JWT交互
     redis: true
     # 是否开启单设备登陆 一个账号仅支持同时一台设备登录 仅当token交互方式为redis时生效
-    sdl: true
+    sdl: false
     # token中存储用户权限数据 开启后可避免每次请求再获取用户权限，但有可能导致编辑权限菜单后无法读取到最新权限数据（需用户重新登录）
     storePerms: true
     # token过期时间 redis模式有请求自动刷新过期时间（分钟）
@@ -154,7 +154,7 @@ snail:
   # app应用 token交互配置
   appToken:
     # 是否开启同一平台单设备登陆（如安卓设备只允许登录一个相同账号，IOS设备可允许一个设备同时登陆）
-    spl: true
+    spl: false
     # token过期时间 有请求自动刷新（天）
     tokenExpireTime: 30
   # 使用Spring @Cacheable注解失效时间
@@ -188,6 +188,10 @@ snail:
       appKey: 你的appKey
       appSecret: 你的appSecret
       callbackUrl: http://127.0.0.1:8888/snail/social/weibo/callback
+    #wxapp
+    wxapp:
+      appId: wx561b85a7ebea9fc0
+      appSecret: 2cd50a322a97c8fcc663f5d3ca8488d0
     # wechat
     wechat:
       appId: 你的appId
@@ -262,6 +266,7 @@ ignored:
     - /**/*.ico
     - /snail/test/**
     - /doc.html
+    - /snail/wxapp/**
   # 限流及黑名单不拦截的路径
   limitUrls:
     - /**/*.js

@@ -11,13 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc8c246-8af5-44b1-8c80-8326f0344319" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClassCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_auth0_java_jwt_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_binarywang_weixin_java_common_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_binarywang_weixin_java_miniapp_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/snail.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/snail.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/config/WxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/config/WxProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/entity/dto/LitemallUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_io_commons_io_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/snail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/snail.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/BasicSetupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/BasicSetupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snail/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../snail/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vue-manage-system-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,6 +113,16 @@
       <workItem from="1608349813514" duration="11063000" />
       <workItem from="1608462267705" duration="1021000" />
       <workItem from="1608466803860" duration="2763000" />
+      <workItem from="1608523490874" duration="5270000" />
+      <workItem from="1608598643563" duration="1984000" />
+      <workItem from="1608771761448" duration="602000" />
+      <workItem from="1609115838228" duration="852000" />
+      <workItem from="1609743265385" duration="1379000" />
+      <workItem from="1611069395879" duration="1823000" />
+      <workItem from="1611279286691" duration="596000" />
+      <workItem from="1611326822811" duration="599000" />
+      <workItem from="1611622227917" duration="5907000" />
+      <workItem from="1611801087043" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1607915814795</created>
@@ -146,10 +170,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608384366101">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608690624785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608384366101" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608690624785" />
     <state x="829" y="417" key="Github.ShareDialog" timestamp="1607917620261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,13 +198,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607928057797" />
-    <state x="-6" y="214" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607866070670">
+    <state x="-6" y="214" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611800308677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-6" y="214" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607866070670" />
-    <state x="662" y="130" width="596" height="804" key="find.popup" timestamp="1608379510072">
+    <state x="-6" y="214" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611800308677" />
+    <state x="662" y="130" width="596" height="804" key="find.popup" timestamp="1609753289081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="130" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608379510072" />
+    <state x="662" y="130" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609753289081" />
   </component>
 </project>

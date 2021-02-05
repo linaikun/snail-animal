@@ -16,6 +16,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @author Snail
  */
@@ -41,6 +43,14 @@ public class ClassCardController extends SnailBaseController<ClassCard, String> 
 
         Page<ClassCard> page = classCardService.findByCondition(classCard, searchVo, PageUtil.initPage(pageVo));
         return new ResultUtil<Page<ClassCard>>().setData(page);
+    }
+
+    @RequestMapping(value = "/getOneWeek", method = RequestMethod.GET)
+    @ResponseBody
+    @ApiOperation(value = "获取最近一周开课数据")
+    public Result<List<ClassCard>> getOneWeek() {
+        List<ClassCard> list = getService().getOneWeek();
+        return new ResultUtil<List<ClassCard>>().setData(list);
     }
 
 }

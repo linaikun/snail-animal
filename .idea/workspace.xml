@@ -14,17 +14,529 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d474d8-9f5f-4217-9dd4-3fc7c2911f93" name="Default Changelist" comment="by animal">
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/classcard/addEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail-front/src/views/weapp/classcard/classcard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/ClassCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_common_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_miniapp_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/app.4c94f137.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/app.4c94f137.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-017c48f4.d0a31aae.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-05939736.ebf693d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-05be88f8.568c9dc4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-06ab11a8.8fadb60e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0815bd99.27609e00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0969f90c.698a29f4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-096d8194.4ed347fd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0999f090.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0b7ae91d.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0f1c42f4.8f7488cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0f398a57.8195a83d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-0fed5d84.cf7bd354.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-10e37afc.374df7bf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-10f071af.9b4f3c9d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-1175cf62.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-125c3ebc.e87771cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-144fef9a.57849c67.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-155e76a6.87a043f0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-160b28a4.87cae33c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-1bb7c9b4.e7f0c8dc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-1bb7c9b4.e7f0c8dc.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-1e925c09.d0c49aa0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-21c733ee.dd1fa0f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-22548444.d5a24fe7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2380de2a.4af9d340.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-26ce53cd.0e433876.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2714bcb0.318c2f3a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-27e6e819.6cab0ee7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2a2bbab7.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2bf8bd7a.8195a83d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2d70c812.17047dd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2d7145e4.ea9db685.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-2efc07fe.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-326397f7.e059fefc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-34a71096.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-34c081f5.2544de1e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-360e2d5e.6a38ab4a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-37a4ab82.16d56839.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3999823c.ea9db685.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-39b1560e.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3a5979df.941c6eee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3b2b702e.2670206a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3d205367.a879bcbb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3d652b6e.9728dd11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3d8ea2dd.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3f8b2e6b.e87771cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-3f9d63a0.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-409ab0ac.27f53106.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-40eaefdf.923ed354.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-41d7e911.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-42bbd4c4.93628966.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-42c55890.ad055ffc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-43412746.70e23f0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4373ee3e.9c81ca9b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-43af9f31.371efa24.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-44dc6644.f6bbfefa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4915cb14.e9a2277f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4a29065a.25482a66.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4b6b524b.942df57f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4ba2d1a9.4d60eb37.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4ce540a6.4bd1c907.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-4eb80c44.371bb257.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-5063f9d1.2ba2fd2d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-507be4f6.f589c167.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-508c5f44.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-5273a82c.dd1fa0f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-53ff4223.2cbd0cac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-59556e90.7bad1f8d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-59556e90.7bad1f8d.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-5b9a681e.c044874d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-5ce9220a.96b5dd9c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-5f0af118.688b54eb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-601af7cc.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-60858dfb.70e23f0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-618dec3b.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-63dbba2c.107be581.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-65979e06.ce2874fb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6677bb78.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-668e0860.6e3195b6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-681c9288.6553ee43.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-681c9288.6553ee43.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-688e6f79.932b4375.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6a25750c.2544de1e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6b6b1470.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6cb06f26.8bba6954.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6d012108.942df57f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-6e9c323c.b5d39213.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-717a3ae5.17469b5f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-73b6e9fe.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-73bcd0da.21165e87.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-743a33eb.da47a160.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-74c45a07.a4cfbe3a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-7581d84e.de4019fe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-7581d84e.de4019fe.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-7a77d620.e04b6ad6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-7be75f83.6c62ac52.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-807251dc.d6abe35a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-81913548.0710e877.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-88d36714.042f973b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-8cb1c234.3921bba2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-9332f74e.4af9d340.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-961629ba.1e5cbb8d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-9ebf3e2a.c69d7f2f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-a44feb12.371bb257.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-aa23f304.1a63a7ef.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-aecdce0e.0804575c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-af18ba00.84eb4346.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-afc2abfe.0804575c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-b4103730.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-b74fa51c.4970ebd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-b7a6130a.5aafacff.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-bb469c6e.c9bf45fc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-c8ae4838.0e85d07a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-cd14c7a8.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-cd9d4f50.19ea917c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-d44dda44.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-d6d3c732.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-dc5ba010.000062f8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-de5326f6.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-e209e766.7f9df001.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-eaabd41e.992970cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-efbdaa96.efa1d474.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-f40b735c.29631cd1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-f4b458de.74806913.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-f829013e.b54ff977.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-f829013e.b54ff977.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-f88d85e8.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-vendors.1e73e159.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/css/chunk-vendors.1e73e159.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/fonts/ionicons.143146fa.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/fonts/ionicons.99ac3308.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/fonts/ionicons.d535a25a.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/QQ.b6432515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/background.5825f033.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/console.b4f11688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/department.d7feb09a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/dingding.21a7a85c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/fee.d13d9118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/iconfont.e543ab6b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/img-error.6448652a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/ionicons.a2c4a261.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/loading2.82cbdb2d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/pdf.93678b5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/play.a4e927cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/qiyeweixin.7010268f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/user.c7c4037d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/weibo.57188625.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/word.50fe0580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/img/xls.f0b6ad5c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/index.html.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/dist/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/app.4c94f137.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/app.4c94f137.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-017c48f4.d0a31aae.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-05939736.ebf693d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-05be88f8.568c9dc4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-06ab11a8.8fadb60e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0815bd99.27609e00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0969f90c.698a29f4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-096d8194.4ed347fd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0999f090.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0b7ae91d.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0f1c42f4.8f7488cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0f398a57.8195a83d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-0fed5d84.cf7bd354.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-10e37afc.374df7bf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-10f071af.9b4f3c9d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-1175cf62.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-125c3ebc.e87771cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-144fef9a.57849c67.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-155e76a6.87a043f0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-160b28a4.87cae33c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-1bb7c9b4.e7f0c8dc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-1bb7c9b4.e7f0c8dc.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-1e925c09.d0c49aa0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-21c733ee.dd1fa0f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-22548444.d5a24fe7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2380de2a.4af9d340.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-26ce53cd.0e433876.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2714bcb0.318c2f3a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-27e6e819.6cab0ee7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2a2bbab7.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2bf8bd7a.8195a83d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2d70c812.17047dd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2d7145e4.ea9db685.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-2efc07fe.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-326397f7.e059fefc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-34a71096.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-34c081f5.2544de1e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-360e2d5e.6a38ab4a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-37a4ab82.16d56839.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3999823c.ea9db685.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-39b1560e.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3a5979df.941c6eee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3b2b702e.2670206a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3d205367.a879bcbb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3d652b6e.9728dd11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3d8ea2dd.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3f8b2e6b.e87771cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-3f9d63a0.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-409ab0ac.27f53106.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-40eaefdf.923ed354.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-41d7e911.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-42bbd4c4.93628966.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-42c55890.ad055ffc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-43412746.70e23f0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4373ee3e.9c81ca9b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-43af9f31.371efa24.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-44dc6644.f6bbfefa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4915cb14.e9a2277f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4a29065a.25482a66.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4b6b524b.942df57f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4ba2d1a9.4d60eb37.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4ce540a6.4bd1c907.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-4eb80c44.371bb257.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-5063f9d1.2ba2fd2d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-507be4f6.f589c167.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-508c5f44.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-5273a82c.dd1fa0f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-53ff4223.2cbd0cac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-59556e90.7bad1f8d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-59556e90.7bad1f8d.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-5b9a681e.c044874d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-5ce9220a.96b5dd9c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-5f0af118.688b54eb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-601af7cc.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-60858dfb.70e23f0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-618dec3b.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-63dbba2c.107be581.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-65979e06.ce2874fb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6677bb78.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-668e0860.6e3195b6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-681c9288.6553ee43.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-681c9288.6553ee43.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-688e6f79.932b4375.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6a25750c.2544de1e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6b6b1470.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6cb06f26.8bba6954.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6d012108.942df57f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-6e9c323c.b5d39213.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-717a3ae5.17469b5f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-73b6e9fe.2a170571.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-73bcd0da.21165e87.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-743a33eb.da47a160.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-74c45a07.a4cfbe3a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-7581d84e.de4019fe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-7581d84e.de4019fe.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-7a77d620.e04b6ad6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-7be75f83.6c62ac52.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-807251dc.d6abe35a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-81913548.0710e877.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-88d36714.042f973b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-8cb1c234.3921bba2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-9332f74e.4af9d340.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-961629ba.1e5cbb8d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-9ebf3e2a.c69d7f2f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-a44feb12.371bb257.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-aa23f304.1a63a7ef.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-aecdce0e.0804575c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-af18ba00.84eb4346.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-afc2abfe.0804575c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-b4103730.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-b74fa51c.4970ebd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-b7a6130a.5aafacff.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-bb469c6e.c9bf45fc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-c8ae4838.0e85d07a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-cd14c7a8.2c2060d6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-cd9d4f50.19ea917c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-d44dda44.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-d6d3c732.5d5a2202.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-dc5ba010.000062f8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-de5326f6.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-e209e766.7f9df001.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-eaabd41e.992970cf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-efbdaa96.efa1d474.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-f40b735c.29631cd1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-f4b458de.74806913.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-f829013e.b54ff977.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-f829013e.b54ff977.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-f88d85e8.ddc621d0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-vendors.1e73e159.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/css/chunk-vendors.1e73e159.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/fonts/ionicons.143146fa.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/fonts/ionicons.99ac3308.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/fonts/ionicons.d535a25a.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/QQ.b6432515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/background.5825f033.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/console.b4f11688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/department.d7feb09a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/dingding.21a7a85c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/fee.d13d9118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/iconfont.e543ab6b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/img-error.6448652a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/ionicons.a2c4a261.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/loading2.82cbdb2d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/pdf.93678b5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/play.a4e927cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/qiyeweixin.7010268f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/user.c7c4037d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/weibo.57188625.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/word.50fe0580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/img/xls.f0b6ad5c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/index.html.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/app.d67e6b7c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/app.d67e6b7c.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-017c48f4.90388a9d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-017c48f4.90388a9d.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-05939736.ccfa5cd3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-05be88f8.ccdc3f33.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-05be88f8.ccdc3f33.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-06ab11a8.852148e3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0815bd99.aa04f300.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0969f90c.b1ceae7b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-096d8194.29b79b08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0999f090.e754fff8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0999f090.e754fff8.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0b7ae91d.af44c92c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0f1c42f4.cbdc144c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0f398a57.1691dafc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0f398a57.1691dafc.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-0fed5d84.a833e3c2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-10e37afc.7cf86575.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-10e37afc.7cf86575.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-10f071af.eb49ff73.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1175cf62.9174609a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1175cf62.9174609a.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-125c3ebc.a322822e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-144fef9a.61294b40.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-155e76a6.d5b8c337.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-160b28a4.a5079338.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1bb7c9b4.d69504dd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1d994436.5ed22c2e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1d994436.5ed22c2e.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1e925c09.f4cf749b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-1e925c09.f4cf749b.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-21c733ee.fcf9855b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-22548444.28641cbd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2380de2a.b6091ae6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-26ce53cd.49d19158.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2714bcb0.c0f0dcdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-27e6e819.c30a80ac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2a2bbab7.19f42bb5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2a2bbab7.19f42bb5.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2bf8bd7a.c4ba8fd9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2bf8bd7a.c4ba8fd9.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0a38dd.b8fd611b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0aeb4a.29f44c93.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0ba490.ee71a4cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0c7d11.fa90110f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0cf2c8.938b860f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d0de505.3ef98316.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d20efd5.fb71060b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d20f739.d5d7a251.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d216f0d.360a22ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d22c130.ac070a20.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d70c812.17978112.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d70c812.17978112.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d7145e4.0d0ba61c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2d7145e4.0d0ba61c.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-2efc07fe.824eef5a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-326397f7.4d3b74b1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-34a71096.f6f0075d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-34a71096.f6f0075d.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-34c081f5.7edb968b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-360e2d5e.22b9f1c7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-37a4ab82.e19fd1e2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-37a4ab82.e19fd1e2.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3999823c.e8d5fcf3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3999823c.e8d5fcf3.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-39b1560e.0dc9e1b0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3a5979df.0bb816e5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3b2b702e.b84486e9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d205367.f7647d32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d205367.f7647d32.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d652b6e.1bbe7978.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d652b6e.1bbe7978.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d8ea2dd.5d0d3871.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3d8ea2dd.5d0d3871.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3f8b2e6b.9868c89b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3f9d63a0.53438d92.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-3f9d63a0.53438d92.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-407a9b9c.085113cc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-407a9b9c.085113cc.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-409ab0ac.89d1d462.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-40eaefdf.90fd38f3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-41d7e911.d8cb4508.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-42bbd4c4.d2e362bf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-42bbd4c4.d2e362bf.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-42c55890.24739957.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-43412746.06904f37.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4373ee3e.4bff128a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-43af9f31.7b58bf60.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-43af9f31.7b58bf60.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-44dc6644.dd3a7a92.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-44dc6644.dd3a7a92.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4915cb14.00368138.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4a29065a.90b13938.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4b6b524b.c4640f54.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4ba2d1a9.84797a27.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4ba2d1a9.84797a27.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4ce540a6.c0ebdb8c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4eb80c44.3c1c8ca9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-4eb80c44.3c1c8ca9.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5063f9d1.eb4dba08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5063f9d1.eb4dba08.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-507be4f6.0bf9cc7e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-507be4f6.0bf9cc7e.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-508c5f44.77bb805b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-508c5f44.77bb805b.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5273a82c.eac49432.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-539ae5d3.1263d467.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-53ff4223.4b185f05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-58443368.e9476888.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-58443368.e9476888.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-59556e90.0307d8b8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5b9a681e.0cba134c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5ce9220a.42c82730.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5ce9220a.42c82730.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-5f0af118.59b41019.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-601af7cc.6088ddb8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-60858dfb.0e77ce06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-618dec3b.2ab94573.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-618dec3b.2ab94573.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-63dbba2c.193d20b0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-63dbba2c.193d20b0.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-65979e06.912e91b8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6677bb78.1121437e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-668e0860.4f6afd69.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-668e0860.4f6afd69.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-681c9288.9044beba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-688e6f79.2347b019.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6a25750c.de42a06b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6a25750c.de42a06b.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6b6b1470.52637c1a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6b6b1470.52637c1a.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6cb06f26.70ce8b61.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6cb06f26.70ce8b61.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6d012108.e4ad3b48.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6e9c323c.b6981416.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-6ee98f12.e16a7ce5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-717a3ae5.2f657d63.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-717a3ae5.2f657d63.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-73b6e9fe.d8464fd1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-73bcd0da.738042b2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-73bcd0da.738042b2.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-743a33eb.481deadc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-743a33eb.481deadc.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-74c45a07.b0ecafed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-7581d84e.aba38117.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-7581d84e.aba38117.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-7a77d620.823a28a7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-7be75f83.9242bb96.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-807251dc.65e97332.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-81913548.5f4029ac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-88d36714.abac6359.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-88d36714.abac6359.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-8cb1c234.8657f595.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-9332f74e.8e1122a0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-9332f74e.8e1122a0.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-961629ba.459b9694.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-961629ba.459b9694.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-9ebf3e2a.ec3897ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-9ebf3e2a.ec3897ec.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-a44feb12.bce6e512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-a44feb12.bce6e512.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-aa23f304.86d0343a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-aa23f304.86d0343a.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-aecdce0e.ba55bfb9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-af18ba00.0713bf7e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-af18ba00.0713bf7e.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-afc2abfe.fcd6e2cd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-b4103730.e488299a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-b74fa51c.9c09a47b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-b7a6130a.2d516f48.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-b7a6130a.2d516f48.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-bb469c6e.2d8db319.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-c8ae4838.94f6d4c3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-cd14c7a8.b174e826.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-cd14c7a8.b174e826.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-cd9d4f50.8109fd36.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-d44dda44.040155d6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-d6d3c732.2714a625.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-d6d3c732.2714a625.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-dc5ba010.e4606029.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-de5326f6.b22136cc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-e209e766.3800614c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-eaabd41e.bd407a44.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-efbdaa96.10de115f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f40b735c.a6621f46.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f4b458de.41ed79e7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f4b458de.41ed79e7.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f829013e.7d990ed2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f829013e.7d990ed2.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-f88d85e8.22637798.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-vendors.8a427c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/js/chunk-vendors.8a427c21.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail-front/snail/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/snail.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/snail.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/config/WxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/config/WxProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/entity/dto/LitemallUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail-front/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/snail-front/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/generator/SnailGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snail/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/snail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snail/snail.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/BasicSetupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/BasicSetupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/controller/ClassCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/dao/ClassCardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/service/ClassCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/serviceimpl/ClassCardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snail/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/snail/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +551,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +595,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/snail-front/src/views/weapp/courselist" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/snail/src/main/java/com/animal/snail/modules/wxapp/until" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,11 +615,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\until" />
       <recent name="D:\workspacemywork\snail-animal\snail-front\src\views\weapp\courselist" />
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\serviceimpl" />
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\service" />
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\entity" />
-      <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.animal.snail.modules.wxapp.until" />
+      <recent name="com.animal.snail.modules.wxapp.config" />
+      <recent name="com.animal.snail.modules.wxapp.entity.dto" />
+      <recent name="com.animal.snail.modules.wxapp.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\serviceimpl" />
@@ -115,7 +635,12 @@
       <recent name="D:\workspacemywork\snail-animal\snail\src\main\java\com\animal\snail\modules\wxapp\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnailGenerator">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U idea:idea" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SnailApplication">
     <configuration name="SnailGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.animal.snail.generator.SnailGenerator" />
       <module name="snail" />
@@ -156,6 +681,7 @@
     <configuration name="SnailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="snail" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.animal.snail.SnailApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,7 +712,31 @@
       <workItem from="1608082274336" duration="23078000" />
       <workItem from="1608165598969" duration="4319000" />
       <workItem from="1608278415906" duration="597000" />
-      <workItem from="1608349835919" duration="18010000" />
+      <workItem from="1608349835919" duration="20153000" />
+      <workItem from="1608523512784" duration="13087000" />
+      <workItem from="1608708826709" duration="602000" />
+      <workItem from="1608771782871" duration="1576000" />
+      <workItem from="1608776990455" duration="5362000" />
+      <workItem from="1608805176655" duration="6185000" />
+      <workItem from="1608878306193" duration="1548000" />
+      <workItem from="1609115863619" duration="870000" />
+      <workItem from="1609290866033" duration="1211000" />
+      <workItem from="1609897551551" duration="386000" />
+      <workItem from="1610327085238" duration="3124000" />
+      <workItem from="1610691028191" duration="2571000" />
+      <workItem from="1610782461225" duration="1850000" />
+      <workItem from="1610858118386" duration="3568000" />
+      <workItem from="1611016961663" duration="7794000" />
+      <workItem from="1611276542030" duration="1818000" />
+      <workItem from="1611326845490" duration="11029000" />
+      <workItem from="1611507840646" duration="2862000" />
+      <workItem from="1611535665045" duration="14124000" />
+      <workItem from="1611622261489" duration="21315000" />
+      <workItem from="1611801133348" duration="4195000" />
+      <workItem from="1611883907925" duration="519000" />
+      <workItem from="1612147142360" duration="1850000" />
+      <workItem from="1612404165363" duration="4347000" />
+      <workItem from="1612491780426" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary=" 。">
       <created>1607927019551</created>
@@ -286,7 +836,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608389696363</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="by animal">
+      <created>1608471421034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608471421034</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,97 +902,93 @@
     <option name="LAST_COMMIT_MESSAGE" value="by animal" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="477" y="69" key="#&lt;template&gt;_of_Spring_Boot" timestamp="1611507375412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="69" key="#&lt;template&gt;_of_Spring_Boot/0.0.1920.1040@0.0.1920.1040" timestamp="1611507375412" />
+    <state x="586" y="198" key="#Inspections" timestamp="1611539145948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1611539145948" />
     <state x="684" y="343" key="#Notifications" timestamp="1607935448450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1607935448450" />
-    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1608115723432">
+    <state x="477" y="114" width="979" height="850" key="#SnailApplication" timestamp="1611507394412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="418" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608115723432" />
+    <state x="477" y="114" width="979" height="850" key="#SnailApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1611507394412" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611507388327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611507388327" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611510291822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611510291822" />
+    <state width="438" height="466" key="DebuggerActiveHint" timestamp="1608823660500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="438" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608823660500" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1607947696834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607947696834" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1608097879936">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1611509703310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608097879936" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611509703310" />
     <state x="832" y="418" key="Github.ShareDialog" timestamp="1608027150183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="832" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608027150183" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608455654323">
+    <state width="1877" height="457" key="GridCell.Tab.0.bottom" timestamp="1611804099242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608455654323" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608455654323">
+    <state width="1877" height="457" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611804099242" />
+    <state width="1877" height="457" key="GridCell.Tab.0.center" timestamp="1611804099242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608455654323" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608455654323">
+    <state width="1877" height="457" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611804099242" />
+    <state width="1877" height="457" key="GridCell.Tab.0.left" timestamp="1611804099242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608455654323" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608455654323">
+    <state width="1877" height="457" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611804099242" />
+    <state width="1877" height="457" key="GridCell.Tab.0.right" timestamp="1611804099242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608455654323" />
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1608445565926">
+    <state width="1877" height="457" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611804099242" />
+    <state x="830" y="240" key="RollbackChangesDialog" timestamp="1611511160924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565926" />
-    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1608445565922">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565922" />
-    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1608445565919">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565919" />
-    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1608445565925">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565925" />
-    <state width="1877" height="337" key="GridCell.Tab.2.bottom" timestamp="1608445565928">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565928" />
-    <state width="1877" height="337" key="GridCell.Tab.2.center" timestamp="1608445565927">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565927" />
-    <state width="1877" height="337" key="GridCell.Tab.2.left" timestamp="1608445565926">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565926" />
-    <state width="1877" height="337" key="GridCell.Tab.2.right" timestamp="1608445565928">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="337" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608445565928" />
-    <state x="830" y="240" key="RollbackChangesDialog" timestamp="1607928775802">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="830" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607928775802" />
+    <state x="830" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611511160924" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1608026326808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608026326808" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608389698715">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608471427921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608389698715" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608471427921" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1611544657081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611544657081" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611801428127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611801428127" />
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607929357789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="257" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607929357789" />
-    <state x="662" y="223" width="615" height="594" key="find.popup" timestamp="1608455471999">
+    <state x="662" y="223" width="1020" height="594" key="find.popup" timestamp="1612164950044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="615" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608455471999" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1607934977811">
+    <state x="662" y="223" width="1020" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612164950044" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1611536950682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607934977811" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611536950682" />
   </component>
 </project>

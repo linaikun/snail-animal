@@ -195,6 +195,14 @@
             <artifactId>antlr4</artifactId>
             <version>4.8</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+
         <!-- Minio -->
         <dependency>
             <groupId>io.minio</groupId>
@@ -206,6 +214,11 @@
             <groupId>com.qiniu</groupId>
             <artifactId>qiniu-java-sdk</artifactId>
             <version>7.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+            <version>3.3.0</version>
         </dependency>
         <!-- 阿里云OSS 包含核心包 -->
         <dependency>
